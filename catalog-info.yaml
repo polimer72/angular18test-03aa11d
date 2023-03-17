@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "angular18test"
+  description: "angular18test"
+  links:
+    - url: https://angular18test-angular6test.empcbr.thoughtworks-labs.net
+      title: angular18test
+      icon: dashboard
+  annotations:
+    circleci.com/project-slug: github/platform-dx/angular18test-03aa11d
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: platform-dx/angular18test-03aa11d
+    sonarqube.org/project-key: "angular18test"
+    backstage.io/kubernetes-label-selector: "app=angular18test"
+    backstage.io/adr-location: docs/adrs/
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "ricardo"

@@ -1,0 +1,8 @@
+site_name: "angular18test"
+site_description: "angular18test"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
